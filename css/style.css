@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #111111;
+	color: #ffffff;
 	font-weight: 400;
 	font-family: "Mulish", sans-serif;
 }
@@ -46,7 +46,7 @@ h6 {
 p {
 	font-size: 15px;
 	font-family: "Mulish", sans-serif;
-	color: #3d3d3d;
+	color: #ffffff;
 	font-weight: 400;
 	line-height: 25px;
 	margin: 0 0 15px 0;
@@ -1903,7 +1903,7 @@ ol {
 	background: #070720;
 	padding-top: 60px;
 	padding-bottom: 40px;
-	position: relative;
+	position: absolute;
 }
 
 .page-up {
@@ -2337,5 +2337,35 @@ ol {
 	margin-right: 10px;
 	display: block;
 
+
+}
+
+.bottom{
+	margin-top: auto;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 21px;;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: block;
+
+}
+
+.bottom2{
+	margin-top: 20px;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 21px;;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: block;
 
 }
