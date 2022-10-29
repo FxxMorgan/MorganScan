@@ -7,7 +7,7 @@
     <meta name="keywords" content="Anime, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anime | Template</title>
+    <title>MorganScan</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -79,7 +79,7 @@
                 <div class="col-lg-8">
                     <div class="blog__details__title">
                         <h6>Action, Magic <span>- March 08, 2020</span></h6>
-                        <h2>Capitulo 1 - Nihonkoku Shoukan </h2>
+                        <h2>Capitulo 2 - Nihonkoku Shoukan </h2>
                         <div class="blog__details__social">
                             <a href="#" class="facebook"><i class="fa fa-facebook-square"></i> Facebook</a>
                             <a href="#" class="pinterest"><i class="fa fa-pinterest"></i> Pinterest</a>
@@ -88,8 +88,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="blog__details__pic">
+            </div>
+
 
 
     <!-- Header End -->
@@ -211,7 +211,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="bottom2">
-                <button type="button" class="btn btn-primary" onclick="previousChapter()">Capitulos</button>
+                <button type="button" class="btn btn-primary" onclick="previousChapter()">Anterior</button>
                 <button type="button" class="btn btn-primary" onclick="nextChapter()">Siguiente</button>
             </div>
         </div>
@@ -219,10 +219,10 @@
 
     <script>
         function previousChapter() {
-            window.location.href = "chapter-1.html";
+            window.location.href = "cap1.html";
         }
         function nextChapter() {
-            window.location.href = "cap2.html";
+            window.location.href = "cap3.html";
         }
     </script>
 
@@ -235,6 +235,27 @@
 <script src="/js/jquery.slicknav.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/main.js"></script>
+
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://morganscan-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">Comentarios gracias a disqus.</a></noscript>
 
 
 </body>

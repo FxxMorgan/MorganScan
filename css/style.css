@@ -5,6 +5,9 @@ body {
 	font-family: "Mulish", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: #0b0c2a;
+	margin-left: 10px;
+	margin-right: 10px;
+
 }
 
 h1,
@@ -44,6 +47,15 @@ h6 {
 }
 
 p {
+	font-size: 15px;
+	font-family: "Mulish", sans-serif;
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 0 0 15px 0;
+}
+
+li {
 	font-size: 15px;
 	font-family: "Mulish", sans-serif;
 	color: #ffffff;
@@ -2341,7 +2353,7 @@ ol {
 }
 
 .bottom{
-	margin-top: auto;
+	margin-top: 20px;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -2351,7 +2363,7 @@ ol {
 	cursor: pointer;
 	margin-left: 10px;
 	margin-right: 10px;
-	display: block;
+	display: inline-block;
 
 }
 
@@ -2366,6 +2378,7 @@ ol {
 	cursor: pointer;
 	margin-left: 10px;
 	margin-right: 10px;
-	display: block;
+	display: inline-block;
 
 }
+
