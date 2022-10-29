@@ -2389,6 +2389,14 @@ ol {
 	margin-left: 10px;
 	margin-right: 10px;
 	display: inline-block;
+}
 
+.capitulos{
+
+	margin-top: 10px;
+	display: inline-block;
+	border: none;
+	color: white;
+	padding: 15px 32px;
 
 }
