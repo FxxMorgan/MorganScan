@@ -1441,7 +1441,7 @@ ol {
 }
 
 .blog__details__title .blog__details__social a.facebook {
-	background: #3b5998;
+	background: #ad3dcfb4;
 }
 
 .blog__details__title .blog__details__social a.pinterest {
@@ -1848,7 +1848,7 @@ ol {
 }
 
 .login__social__links ul li a.facebook {
-	background: #4267b2;
+	background: #ad3dcfb4;
 }
 
 .login__social__links ul li a.google {
@@ -2382,3 +2382,13 @@ ol {
 
 }
 
+.botontamaño{
+	margin-top: 50px;
+	border: none;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+
+
+}
