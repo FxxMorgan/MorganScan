@@ -5,9 +5,6 @@ body {
 	font-family: "Mulish", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: #0b0c2a;
-	margin-left: 10px;
-	margin-right: 10px;
-
 }
 
 h1,
@@ -17,7 +14,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #ffffff;
+	color: #111111;
 	font-weight: 400;
 	font-family: "Mulish", sans-serif;
 }
@@ -47,15 +44,6 @@ h6 {
 }
 
 p {
-	font-size: 15px;
-	font-family: "Mulish", sans-serif;
-	color: #ffffff;
-	font-weight: 400;
-	line-height: 25px;
-	margin: 0 0 15px 0;
-}
-
-li {
 	font-size: 15px;
 	font-family: "Mulish", sans-serif;
 	color: #ffffff;
@@ -1441,7 +1429,7 @@ ol {
 }
 
 .blog__details__title .blog__details__social a.facebook {
-	background: #ad3dcfb4;
+	background: #3b5998;
 }
 
 .blog__details__title .blog__details__social a.pinterest {
@@ -1848,7 +1836,7 @@ ol {
 }
 
 .login__social__links ul li a.facebook {
-	background: #ad3dcfb4;
+	background: #4267b2;
 }
 
 .login__social__links ul li a.google {
@@ -1915,7 +1903,7 @@ ol {
 	background: #070720;
 	padding-top: 60px;
 	padding-bottom: 40px;
-	position: absolute;
+	position: relative;
 }
 
 .page-up {
@@ -2319,22 +2307,6 @@ ol {
 	.anime__review__item__text {
 		padding: 18px 20px 20px;
 	}
-
-	.iframe-container{
-		position: relative;
-		width: 100%;
-		padding-bottom: 56.25%; 
-		height: 0;
-	  }
-	  
-	  .iframe-container iframe{
-		position: absolute;
-		top:0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	  }
-
 }
 
 .button-manga {
@@ -2398,5 +2370,53 @@ ol {
 	border: none;
 	color: white;
 	padding: 15px 32px;
+
+}
+
+
+.menuculiao1{
+
+	margin-left: 400px;
+	display: inline-block;
+	border: none;
+	padding: 15px 10px;
+	align-items: center;
+
+
+}
+
+.menuculiao2{
+
+	display: inline-block;
+	border: none;
+	padding: 15px 10px;
+	align-items: center;
+
+}
+
+.menuculiao3{
+
+	display: inline-block;
+	border: none;
+	padding: 15px 10px;
+	align-items: center;
+
+}
+
+.menuculiao4{
+
+	display: inline-block;
+	border: none;
+	padding: 15px 10px;
+	align-items: center;
+
+}
+
+.menuculiao5{
+
+	display: inline-block;
+	border: none;
+	padding: 15px 10px;
+	align-items: center;
 
 }
