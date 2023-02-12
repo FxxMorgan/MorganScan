@@ -98,6 +98,22 @@
         return false;
      });
 
+    /*------------------
+        Magnific Popup
+    --------------------*/
+
+    $('.video-popup').magnificPopup({
+        type: 'iframe'
+    });
+
+    /*------------------
+        Alert
+    --------------------*/
+
+    $('.alert-close').on('click', function () {
+        $('.alert').fadeOut(400);
+    });
+
 
 })(jQuery);
 
