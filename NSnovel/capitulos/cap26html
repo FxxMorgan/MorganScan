@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MorganScan</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="/index.html">
+                            <img src="/img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="/index.html">Inicio</a></li>
+                                <li><a href="/categories.html">Categorias <span class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="/categories.html">Categorias</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/blog.html">Noticias Anime</a></li>
+                                <li><a href="#">Contactame</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="/login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+
+
+    <section class="blog-details spad">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="blog__details__title">
+                        <h6>Action, Magic <span>- March 08, 2020</span></h6>
+                        <h2>Capitulo 26 - Nihonkoku Shoukan </h2>
+                        <div class="blog__details__social">
+                            <a href="#" class="facebook"><i class="fa fa-instagram"></i> Instagram</a>
+                            <a href="#" class="pinterest"><i class="fa fa-youtube"></i> Youtube</a>
+                            <a href="#" class="linkedin"><i class="fa fa-twitch"></i> Twitch</a>
+                            <a href="#" class="twitter"><i class="fa fa-twitter-square"></i> Twitter</a>
+                                   
+                            <br>
+                            <br>
+                            <h6>Cambiar Tamaño Letra</h6> 
+                            <p>
+                                <button class ="btn btn-primary" onclick="return cambiarTexto('+')">+</button>
+                                <button class ="btn btn-primary" onclick="return cambiarTexto('-')">-</button>
+                            </p>
+                      
+                      
+                      
+                      
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="blog__details__pic">
+
+
+    <!-- Header End -->
+        <!-- Text Section Begin-->
+        <head>
+            <div class="text-left">
+			<p>&lt;p&gt;Este capitulo tiene referencias al &amp;ldquo;&lt;a href="https://morganscan.com/manga/nihonkoku-shoukan-espanol/aterrizaje-en-rodenius/capitulo-6/"&gt;capitulo 6 : Evacuacion elfa&lt;/a&gt;&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;&lt;strong&gt;Rodenius, Principado de Kua Toine, tierra sagrada de elfos, bosque de Reen Noa&lt;/strong&gt;&lt;/p&gt;<br />&lt;p&gt;El bosque era denso y h&amp;uacute;medo. Ten&amp;iacute;a grandes &amp;aacute;rboles bloqueando el cielo, obligando a la luz del sol a filtrar a trav&amp;eacute;s de ramas y hojas antes de que llegara al suelo. Hab&amp;iacute;a un peque&amp;ntilde;o r&amp;iacute;o cerca que era claro y pr&amp;iacute;stino. El aire estaba limpio y ligeramente h&amp;uacute;medo, lleno del sonido del agua corriente y los p&amp;aacute;jaros cantando. Sopl&amp;oacute; un viento fresco y suave.&lt;/p&gt;<br />&lt;p&gt;A la entrada del bosque de Reen Noa, la tierra sagrada de los elfos, dos elfos altos esperaban. Se llamaban Meena y Uor.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Realmente no me gusta&amp;hellip; dejando que la gente humana entrara en la tierra santa&amp;rdquo;, murmur&amp;oacute; Uor.&lt;/p&gt;<br />&lt;p&gt;En toda su vida, nunca hab&amp;iacute;a visto ninguna raza que no sea elfos entrar en el bosque. A lo largo de toda la historia, la primera y &amp;uacute;ltima vez que sucedi&amp;oacute; hab&amp;iacute;a sido cuando la coalici&amp;oacute;n de razas utiliz&amp;oacute; el bosque de Reen Noa, entonces llamado el Bosque Sagrado, como su &amp;uacute;ltimo basti&amp;oacute;n contra la invasi&amp;oacute;n del se&amp;ntilde;or demonio, cuando el dios de los elfos todav&amp;iacute;a viv&amp;iacute;a entre ellos. Ahora, las razas que no eran elfos no ten&amp;iacute;an ninguna raz&amp;oacute;n para entrar en el bosque, excepto tal vez si hab&amp;iacute;a una emergencia.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Uor!!! &amp;iexcl;No puedes decirle eso a nuestros invitados! &amp;iexcl;La gente que viene hoy no son s&amp;oacute;lo humanos normales, son de Jap&amp;oacute;n! Rescataron a Kua Toine de la invasi&amp;oacute;n de Rowlia, &amp;iexcl;y tambi&amp;eacute;n ayudaron a nuestros parientes cuando estaban siendo perseguidos por la caballer&amp;iacute;a mientras evacuaban de su aldea! Tambi&amp;eacute;n escuch&amp;eacute; que Jap&amp;oacute;n fue quien derrot&amp;oacute; al se&amp;ntilde;or demonio resucitado Nosgoorah en el Reino Topa&amp;rdquo;.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Meena, eres demasiado cr&amp;eacute;dulo. Primero debes cuestionar si el se&amp;ntilde;or demonio incluso regres&amp;oacute;, &amp;iexcl;y mucho menos si Jap&amp;oacute;n realmente lo derrot&amp;oacute;!&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;Mientras los dos discut&amp;iacute;an, oyeron un sonido como algo cortando el aire. Se volvieron para mirar la fuente de ese sonido.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Qu&amp;hellip; &amp;iexcl;&amp;iquest;Qu&amp;eacute; es eso?!&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;Como elfos altos, la pareja pas&amp;oacute; la mayor parte de sus vidas en lo profundo del bosque, as&amp;iacute; que esta fue su primera vez viendo uno de los veh&amp;iacute;culos de Jap&amp;oacute;n, un helic&amp;oacute;ptero.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;No puedo ser!!! &amp;iexcl;&amp;iquest;Un barco volador?!&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;La historia sobre los emisarios del Dios del Sol vino a la mente. Poco despu&amp;eacute;s, el helic&amp;oacute;ptero aterriz&amp;oacute; frente a ellos y varios humanos salieron de su interior. Dos de los humanos llevaban ropa gris, mientras que los otros cuatro ten&amp;iacute;an ropa verde moteado. Uno de los humanos vestidos de gris, un hombre de mediana edad, se adelant&amp;oacute;.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Me llamo Nakamura, soy arque&amp;oacute;logo. Quisiera expresar mi aprecio y gratitud de antemano por su gu&amp;iacute;a dentro de su tierra santa&amp;rdquo;.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;S&amp;hellip; S&amp;iacute;, claro.&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;Jap&amp;oacute;n salv&amp;oacute; al Principado de Kua Toine en su &amp;eacute;poca de crisis. Esperaban que fueran arrogantes por ese hecho, as&amp;iacute; que era casi anticlim&amp;aacute;tico que Nakamura se inclinara tan bajo ante ellos.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Ven por aqu&amp;iacute;&amp;hellip; es un poco de una caminata.&lt;/p&gt;<br />&lt;p&gt;El equipo de investigaci&amp;oacute;n japon&amp;eacute;s sigui&amp;oacute; a los dos elfos altos. Dos horas despu&amp;eacute;s&amp;hellip;&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Haah, haah, haah, son&amp;hellip; &amp;iquest;Ya casi hemos llegado?&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;El equipo de investigaci&amp;oacute;n estaba completamente agotado.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Dios m&amp;iacute;o, &amp;iquest;ya est&amp;aacute;s cansado? Jaja&amp;hellip; Escuch&amp;eacute; que vienes de una tierra de guerreros capaces que derrotaron al Reino de Rowlia y salvaron el Reino Topa del se&amp;ntilde;or demonio, as&amp;iacute; que esto es algo inesperado&amp;rdquo;, se ri&amp;oacute; Meena en respuesta. &amp;ldquo;Realmente es un poco m&amp;aacute;s lejos, as&amp;iacute; que por favor haz lo mejor que puedas.&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Este lugar es una locura, sin embargo. Nuestras br&amp;uacute;julas giran en c&amp;iacute;rculos aqu&amp;iacute;, sin una gu&amp;iacute;a nunca habr&amp;iacute;amos sido capaces de llegar a ninguna parte&amp;rdquo;.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;En la era del mito, este lugar fue utilizado como el &amp;uacute;ltimo basti&amp;oacute;n para la coalici&amp;oacute;n de razas despu&amp;eacute;s de haber sido invadidos por los ej&amp;eacute;rcitos del se&amp;ntilde;or demonio. A menos que puedas o&amp;iacute;r la voz del bosque, r&amp;aacute;pidamente te encontrar&amp;aacute;s perdido&amp;rdquo;.&lt;/p&gt;<br />&lt;p&gt;Segu&amp;iacute;an caminando. Treinta minutos m&amp;aacute;s tarde, llegaron a un edificio cubierto de hierba, en forma de c&amp;uacute;pula. Meena mir&amp;oacute; hacia atr&amp;aacute;s y comenz&amp;oacute; a recitar una historia.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Este edificio tiene un tesoro para los elfos altos. Como saben, durante la era del mito, los ej&amp;eacute;rcitos del se&amp;ntilde;or demonio invadieron Rodenius. El poder m&amp;aacute;gico del se&amp;ntilde;or demonio era inmenso, as&amp;iacute; que para oponerse a &amp;eacute;l y a su ej&amp;eacute;rcito de demonios, todas las razas se unieron para formar la coalici&amp;oacute;n de razas, un ej&amp;eacute;rcito aliado. Desafortunadamente, el ej&amp;eacute;rcito del se&amp;ntilde;or demonio era demasiado poderoso. La coalici&amp;oacute;n de razas sufri&amp;oacute; derrota tras derrota, sus guerreros m&amp;aacute;s fuertes y valientes muertos uno tras otro. Tuvieron que retirarse al Bosque Sagrado, la tierra santa de los elfos.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;El ej&amp;eacute;rcito del se&amp;ntilde;or demonio ten&amp;iacute;a la intenci&amp;oacute;n de incendiar el Bosque Sagrado. Esto habr&amp;iacute;a aniquilado por completo a los elfos. Nuestro dios sinti&amp;oacute; el peligro y or&amp;oacute; al Creador, el Dios del Sol. El Creador escuch&amp;oacute; sus deseos y envi&amp;oacute; enviados para ayudarnos&amp;hellip; los Emisarios del Sol descendieron a este mundo.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Los emisarios montaron naves voladoras divinas y lanzaron hechicer&amp;iacute;a que convoc&amp;oacute; truenos y llamas que quemaron la tierra, diezmando el ej&amp;eacute;rcito del se&amp;ntilde;or demonio. Cuando los emisarios hab&amp;iacute;an terminado su deber y se estaban preparando para regresar a su mundo, uno de sus barcos voladores divinos estaba demasiado da&amp;ntilde;ado para recuperarse. Terminaron dejando esa nave atr&amp;aacute;s.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Los elfos usaron la magia del espacio-tiempo ahora perdida para preservar la nave y la mantuvieron segura para el futuro. Seg&amp;uacute;n las historias, el frente de la nave divina estaba da&amp;ntilde;ado y perd&amp;iacute;a sangre negra, por lo que ya no pod&amp;iacute;a moverse&amp;rdquo;.&lt;/p&gt;<br />&lt;p&gt;Ese fue el final de la historia.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Mi coraz&amp;oacute;n late tan r&amp;aacute;pido&amp;hellip;! Si esa leyenda es verdadera y esta nave realmente existe, &amp;iexcl;podr&amp;iacute;a morir de emoci&amp;oacute;n!&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;Meena puso una mano en la hierba y cant&amp;oacute; algo arcano. La hierba que cubr&amp;iacute;a el edificio comenz&amp;oacute; a retorcerse y moverse, abri&amp;eacute;ndose para revelar una entrada. Entraron. A pesar de que no hab&amp;iacute;a ventanas para la luz del sol, era brillante en el interior. Hab&amp;iacute;a una cortina de luz, y algo dentro de ella.&lt;/p&gt;<br />&lt;p&gt;El equipo de investigaci&amp;oacute;n lo mir&amp;oacute; fijamente. El tesoro de los elfos, utilizado durante la era del mito, un barco volador divino.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Qu&amp;hellip; &amp;iexcl;&amp;iquest;En?! &amp;iquest;Por qu&amp;eacute; est&amp;aacute; aqu&amp;iacute;?!?!&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;&amp;iquest;Qu&amp;eacute; diablos est&amp;aacute; pasando?&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;Meena, preocupada por la extra&amp;ntilde;a reacci&amp;oacute;n del equipo de investigaci&amp;oacute;n japon&amp;eacute;s, pregunt&amp;oacute;: &amp;ldquo;&amp;iquest;Qu&amp;eacute; pasa? Si bien este es nuestro tesoro, tambi&amp;eacute;n es cierto que no es de este mundo, as&amp;iacute; que &amp;iquest;por qu&amp;eacute; est&amp;aacute;s tan sorprendido?&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;El equipo de investigaci&amp;oacute;n japon&amp;eacute;s se hab&amp;iacute;a congelado; no parec&amp;iacute;a que ninguno de ellos oy&amp;oacute; la pregunta de Meena.&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Eso es&amp;hellip; un ze.. un ze&amp;hellip;&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;&amp;lsquo;Ze&amp;rsquo;?&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;&amp;ldquo;Un luchador Zero!!!&amp;rdquo;&lt;/p&gt;<br />&lt;p&gt;Durante la Segunda Guerra Mundial, el&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero" target="_blank" rel="noopener noreferrer"&gt;Zero fighter&lt;/a&gt;&amp;nbsp;era un s&amp;iacute;mbolo del Imperio de Jap&amp;oacute;n. Al comienzo de la guerra, estos aviones dominaban el aire y tanto Estados Unidos como el Reino Unido tem&amp;iacute;an como &amp;ldquo;los cero demonios&amp;rdquo; o &amp;ldquo;los ceros invencibles&amp;rdquo; cada vez que aparec&amp;iacute;an en los campos de batalla.&lt;/p&gt;<br />&lt;p&gt;El misterio s&amp;oacute;lo se profundiz&amp;oacute;.&lt;/p&gt;<br />&lt;p&gt;M&amp;aacute;s tarde, el gobierno japon&amp;eacute;s se enter&amp;oacute; de este luchador Zero y decidi&amp;oacute; investigar a fondo la mitolog&amp;iacute;a de este mundo.&lt;/p&gt;</p>
+            </div>
+        </head>
+
+
+
+  <!-- Search model Begin -->
+  <div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch"><i class="icon_close"></i></div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search model end -->
+
+</html>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bottom2">
+                <button type="button" class="btn btn-primary" onclick="previousChapter()">Anterior</button>
+                <button type="button" class="btn btn-primary" onclick="nextChapter()">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function previousChapter() {
+            window.location.href = "cap25.html";
+        }
+        function nextChapter() {
+            window.location.href = "cap27.html";
+        }
+    </script>
+
+<!-- Js Plugins -->
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/player.js"></script>
+<script src="/js/jquery.nice-select.min.js"></script>
+<script src="/js/mixitup.min.js"></script>
+<script src="/js/jquery.slicknav.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/boton.js"></script>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://morganscan-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">Comentarios gracias a disqus.</a></noscript>
+
+
+
+</body>
+
+</html>
