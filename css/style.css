@@ -49,7 +49,17 @@ p {
 	color: #ffffff;
 	font-weight: 400;
 	line-height: 25px;
-	margin: 0 0 15px 0;
+	margin: 20px;
+}
+
+li{
+	font-size: 15px;
+	font-family: "Mulish", sans-serif;
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 20px;
+
 }
 
 img {
