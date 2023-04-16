@@ -1468,13 +1468,19 @@
     </div>
 
     <script>
+        var currentChapter = 60; // Cambiar este valor al número actual del capítulo
+        
         function previousChapter() {
-            window.location.href = "cap59.html";
+            currentChapter--;
+            window.location.href = "cap" + currentChapter + ".html";
         }
+        
         function nextChapter() {
-            window.location.href = "cap61.html";
+            currentChapter++;
+            window.location.href = "cap" + currentChapter + ".html";
         }
     </script>
+    
 
 <!-- Js Plugins -->
 <script src="/js/jquery-3.3.1.min.js"></script>

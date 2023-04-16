@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
+    
 
     
     <!--Adsense Code -->
@@ -864,24 +865,32 @@
 
 </html>
 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="bottom">
-                <button type="button" class="btn btn-primary" onclick="previousChapter()">Anterior</button>
-                <button type="button" class="btn btn-primary" onclick="nextChapter()">Siguiente</button>
-            </div>
+<script>
+    var currentChapter = 63; // Cambiar este valor al número actual del capítulo
+    
+    function navigateChapter(direction) {
+        if (direction === 'previous') {
+            currentChapter--;
+        } else if (direction === 'next') {
+            currentChapter++;
+        }
+        window.location.href = "cap" + currentChapter + ".html";
+    }
+</script>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="bottom">
+            <button type="button" class="btn btn-primary" onclick="navigateChapter('previous')">Anterior</button>
+            <button type="button" class="btn btn-primary" onclick="navigateChapter('next')">Siguiente</button>
         </div>
     </div>
+</div>
 
-    <script>
-        function previousChapter() {
-            window.location.href = "cap62.html";
-        }
-        function nextChapter() {
-            window.location.href = "cap64.html";
-        }
-    </script>
 
+
+
+    
 <!-- Js Plugins -->
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
@@ -892,6 +901,7 @@
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/main.js"></script>
 <script src="/js/boton.js"></script>
+
 
 <div id="disqus_thread"></div>
 

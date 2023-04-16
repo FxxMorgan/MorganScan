@@ -724,13 +724,19 @@
     </div>
 
     <script>
+        var currentChapter = 61; // Cambiar este valor al número actual del capítulo
+        
         function previousChapter() {
-            window.location.href = "cap60.html";
+            currentChapter--;
+            window.location.href = "cap" + currentChapter + ".html";
         }
+        
         function nextChapter() {
-            window.location.href = "cap62.html";
+            currentChapter++;
+            window.location.href = "cap" + currentChapter + ".html";
         }
     </script>
+    
 
 <!-- Js Plugins -->
 <script src="/js/jquery-3.3.1.min.js"></script>
@@ -742,6 +748,7 @@
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/main.js"></script>
 <script src="/js/boton.js"></script>
+<script src="/js/error.js"></script>
 
 <div id="disqus_thread"></div>
 
