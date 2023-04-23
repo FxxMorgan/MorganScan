@@ -1168,28 +1168,15 @@
 var currentChapter = 69; // Cambiar este valor al número actual del capítulo
 
 function navigateChapter(direction) {
-    if (direction === 'previous') {
-        currentChapter--;
-    } else if (direction === 'next') {
-        currentChapter++;
-        var nextChapterUrl = "cap" + currentChapter + ".html";
-        // Verificar si el siguiente capítulo existe
-        fetch(nextChapterUrl)
-            .then(function(response) {
-                if (response.status === 404) {
-                    // El siguiente capítulo no existe, redirigir a la página de error 404
-                    window.location.href = "https://beta.morganscan.com/404.html";
-                } else {
-                    // El siguiente capítulo existe, redirigir a la página correspondiente
-                    window.location.href = nextChapterUrl;
-                }
-            })
-            .catch(function(error) {
-                console.log(error);
-            });
+        if (direction === 'previous') {
+            currentChapter--;
+        } else if (direction === 'next') {
+            currentChapter++;
+        }
+        window.location.href = "cap" + currentChapter + ".html";
     }
-}
 </script>
+
 
 <div class="row">
     <div class="col-md-12">
@@ -1215,7 +1202,7 @@ function navigateChapter(direction) {
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/main.js"></script>
 <script src="/js/boton.js"></script>
-<script src="/js/cookie.js"></script>
+
 
 <div id="disqus_thread"></div>
 
@@ -1237,13 +1224,6 @@ function navigateChapter(direction) {
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">Comentarios gracias a disqus.</a></noscript>
-
-
-<div id="cookie-consent">
-    <p>Este sitio web utiliza cookies para brindarle la mejor experiencia de usuario posible. Al continuar utilizando este sitio web, usted acepta nuestro uso de cookies.</p>
-    <button id="accept-btn">Aceptar</button>
-    <button id="reject-btn">Rechazar</button>
-  </div>
 
 
 </body>

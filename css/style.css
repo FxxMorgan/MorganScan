@@ -2431,28 +2431,3 @@ ol {
 
 }
 
-#cookie-consent {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	padding: 10px;
-	background-color: #000000;
-	border-top: 1px solid #505050;
-	text-align: center;
-  }
-  
-  #cookie-consent button {
-	background-color: #008000;
-	color: #fff;
-	padding: 5px 10px;
-	border-radius: 5px;
-	cursor: pointer;
-	margin-left: 10px;
-  }
-  
-  #cookie-consent button:hover {
-	background-color: #006400;
-  }
-  
-  
