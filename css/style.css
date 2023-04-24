@@ -2431,3 +2431,24 @@ ol {
 
 }
 
+#password-form {
+	margin: 20px;
+  }
+  
+  #password-input {
+	padding: 5px;
+	font-size: 16px;
+  }
+  
+  #submit-button {
+	padding: 5px 10px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+  }
+  
+  #error-message {
+	color: red;
+  }
+  
