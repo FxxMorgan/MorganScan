@@ -2410,8 +2410,10 @@
  .btn-primary {
      color: #fff;
      background-color: #007bff;
-     border-color: #007bff
+     border-color: #007bff;
+     margin-top: 10px;
  }
+
  .btn-primary:hover {
      color: #fff;
      background-color: #0069d9;
