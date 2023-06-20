@@ -13,36 +13,26 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Error en la conexión a la base de datos: " . $conn->connect_error);
 }
-?>
 
-
-<?php
-// Verificar si se envió el formulario de inicio de sesión
+// Verificar si se envió el formulario de registro
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtener los valores del formulario
     $email = $_POST["email"];
     $password = $_POST["password"];
 
-    // Consulta para verificar las credenciales del usuario en la base de datos
-    $sql = "SELECT * FROM usuarios WHERE email = '$email' AND password = '$password'";
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0) {
-        // Iniciar la sesión
-        session_start();
-        
-        // Guardar información del usuario en la sesión
-        $_SESSION["usuario"] = $email; // Puedes guardar el email del usuario o cualquier otra información relevante
-        
-        // Redirigir al usuario a la página principal
-        header("Location: index.php");
+    // Consulta para insertar el nuevo usuario en la base de datos
+    $sql = "INSERT INTO usuarios (email, password) VALUES ('$email', '$password')";
+    if ($conn->query($sql) === TRUE) {
+        // Redirigir al usuario a la página de inicio de sesión
+        header("Location: login.php");
         exit();
-
     } else {
-        // Credenciales incorrectas, mostrar un mensaje de error
-        echo "Credenciales incorrectas";
+        // Mostrar un mensaje de error si no se pudo insertar el registro
+        echo "Error: " . $sql . "<br>" . $conn->error;
     }
 }
+
+$conn->close();
 ?>
 
 <!DOCTYPE html>
@@ -122,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="normal__breadcrumb__text">
-                        <h2>Login</h2>
+                        <h2>Registro</h2>
                         <p>Bienvenidos a MorganScan</p>
                     </div>
                 </div>
@@ -137,8 +127,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row">
             <div class="col-lg-6">
                 <div class="login__form">
-                    <h3>Login</h3>
-                    <form action="login.php" method="post">
+                    <h3>Registrarse</h3>
+                    <form action="register.php" method="post">
                         <div class="input__item">
                             <input type="text" name="email" placeholder="Email address">
                             <span class="icon_mail"></span>
@@ -147,20 +137,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <input type="password" name="password" placeholder="Password">
                             <span class="icon_lock"></span>
                         </div>
-                        <button type="submit" class="site-btn">Ingresar</button>
+                        <button type="submit" class="site-btn">Registrarse</button>
                     </form>
-                    <a href="#" class="forget_pass">Olvidaste la contraseña?</a>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="login__register">
-                    <h3>No tienes una cuenta?</h3>
-                    <a href="/register.php" class="primary-btn">Registrarse</a>
+                <div class="register__login">
+                    <h3>Ya tienes una cuenta?</h3>
+                    <a href="login.php" class="primary-btn">Iniciar sesión</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
     <!-- Login Section End -->
 

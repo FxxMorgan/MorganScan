@@ -1,20 +1,3 @@
-<?php
-
-// Iniciar la sesión
-session_start();
-
-// Verificar si el usuario ha iniciado sesión
-if (!isset($_SESSION["usuario"])) {
-    // Redirigir al usuario a la página de inicio de sesión si no ha iniciado sesión
-    header("Location: login.php");
-    exit();
-}
-
-// Si el usuario ha iniciado sesión, puedes acceder a su información guardada en $_SESSION
-$email = $_SESSION["usuario"];
-
-?>
-
 
 <!DOCTYPE html>
 <html lang="es">

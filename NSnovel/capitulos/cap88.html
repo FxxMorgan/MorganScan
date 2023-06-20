@@ -89,7 +89,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="blog__details__title">
-                        <h6>Action, Magic <span>- 18 Mayo , 2023</span></h6>
+                        <h6>Action, Magic <span>25 Mayo , 2023</span></h6>
                         <h2>Capitulo 88 - El Reino Hinomawari | 3 </h2>
                         <div class="blog__details__social">
                             <a href="#" class="facebook"><i class="fa fa-instagram"></i> Instagram</a>
@@ -1053,28 +1053,38 @@
 </html>
 
 <script>
-var currentChapter = 88; // Cambiar este valor al número actual del capítulo
-
-function navigateChapter(direction) {
+    var currentChapter = 88; // Cambiar este valor al número actual del capítulo
+    
+    function navigateChapter(direction) {
         if (direction === 'previous') {
             currentChapter--;
         } else if (direction === 'next') {
             currentChapter++;
         }
-        window.location.href = "cap" + currentChapter + ".html";
+    
+        var chapterURL = getChapterURL(currentChapter);
+        window.location.href = chapterURL;
     }
-</script>
-
-
-<div class="row">
-    <div class="col-md-12">
-        <div class="bottom">
-            <button type="button" class="btn btn-primary" onclick="navigateChapter('previous')">Anterior</button>
-            <a href="capitulos.html" class="btn btn-primary">Capitulos</a>
-            <button type="button" class="btn btn-primary" onclick="navigateChapter('next')">No hay Siguiente</button>
+    
+    function getChapterURL(chapter) {
+        if (chapter <= 88) {
+            return "cap" + chapter + ".html";
+        } else {
+            return "cap" + chapter + ".php";
+        }
+    }
+    </script>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bottom">
+                <button type="button" class="btn btn-primary" onclick="navigateChapter('previous')">Anterior</button>
+                <a href="capitulos.html" class="btn btn-primary">Capítulos</a>
+                <button type="button" class="btn btn-primary" onclick="navigateChapter('next')">Siguiente</button>
+            </div>
         </div>
     </div>
-</div>
+     
 
 
 

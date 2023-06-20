@@ -11,10 +11,10 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Establecer la codificación de caracteres en UTF-8
 if (!$conn->set_charset("utf8")) {
     die("Error al establecer la codificación de caracteres: " . $conn->error);
 }
-
 
 // El ID del capítulo se recoge de la URL (p.ej., capitulo.php?id=0)
 $capitulo_id = basename($_SERVER['PHP_SELF'], '.php');
@@ -123,7 +123,7 @@ $conn->close();
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="blog__details__title">
-                        <h6>Action, Magic <span>- 25 Mayo , 2023</span></h6>
+                    <h6>Action, Magic <span>- 01 Junio , 2023</span></h6>
                         <h2><?php echo $capitulo['titulo']; ?></h2>
                         <div class="blog__details__social">
                             <a href="#" class="facebook"><i class="fa fa-instagram"></i> Instagram</a>
@@ -146,11 +146,10 @@ $conn->close();
     <!-- Header End -->
         <!-- Text Section Begin-->       
         
-    <div class="text-left">
+        <div class="text-left">
     <p><?php echo nl2br($capitulo['capitulo']); ?></p>
     </div>
             </div>
-
 
 
 
@@ -169,27 +168,17 @@ $conn->close();
 </html>
 
 <script>
-    var currentChapter = 89; // Cambiar este valor al número actual del capítulo
-    
-    function navigateChapter(direction) {
+var currentChapter = 98; // Cambiar este valor al número actual del capítulo
+
+function navigateChapter(direction) {
         if (direction === 'previous') {
             currentChapter--;
         } else if (direction === 'next') {
             currentChapter++;
         }
-    
-        var chapterURL = getChapterURL(currentChapter);
-        window.location.href = chapterURL;
+        window.location.href = "cap" + currentChapter + ".php";
     }
-    
-    function getChapterURL(chapter) {
-        if (chapter <= 88) {
-            return "cap" + chapter + ".html";
-        } else {
-            return "cap" + chapter + ".php";
-        }
-    }
-    </script>
+</script>
 
 
 <div class="row">
@@ -198,6 +187,7 @@ $conn->close();
             <button type="button" class="btn btn-primary" onclick="navigateChapter('previous')">Anterior</button>
             <a href="capitulos.html" class="btn btn-primary">Capitulos</a>
             <button type="button" class="btn btn-primary" onclick="navigateChapter('next')">Siguiente</button>
+
         </div>
     </div>
 </div>
