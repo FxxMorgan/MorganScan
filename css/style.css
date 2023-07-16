@@ -2402,6 +2402,7 @@ ol {
 	padding: 15px 10px;
 	align-items: center;
 
+
 }
 
 .menuculiao3{
@@ -2428,6 +2429,27 @@ ol {
 	border: none;
 	padding: 15px 10px;
 	align-items: center;
+
+}
+
+.menunuevo{
+	
+	display: flex;
+	border: none;
+	padding: 15px 10px;
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+
+.menunuevo1{
+	
+	display: flex;
+	border: none;
+	padding: 15px 10px;
+	align-items: center;
+	margin-top: -3.7%;
+	margin-left: 21%;
 
 }
 

@@ -123,7 +123,7 @@ $conn->close();
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="blog__details__title">
-                    <h6>Action, Magic <span>- 01 Junio , 2023</span></h6>
+                    <h6>Action, Magic <span>- 23 Junio , 2023</span></h6>
                         <h2><?php echo $capitulo['titulo']; ?></h2>
                         <div class="blog__details__social">
                             <a href="#" class="facebook"><i class="fa fa-instagram"></i> Instagram</a>
@@ -168,7 +168,7 @@ $conn->close();
 </html>
 
 <script>
-var currentChapter = 103; // Cambiar este valor al número actual del capítulo
+var currentChapter = 104; // Cambiar este valor al número actual del capítulo
 
 function navigateChapter(direction) {
         if (direction === 'previous') {
